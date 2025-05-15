@@ -23,5 +23,10 @@ This project provides a relational database schema for managing an art galleryâ€
 3. **Import the SQL Schema**
    mysql -u your_mysql_user -p art_gallery < art_gallery.sql
 
-4. 
+
+ -- Example constraints:
+-- - Each artwork is created by one artist (1-M)
+-- - Each artwork can be in multiple exhibitions (M-M)
+-- - Each sale links an artwork and a buyer (M-M via Sales)
+-- - Each buyer can buy multiple artworks (1-M)
    
