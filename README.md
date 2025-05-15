@@ -13,7 +13,7 @@ This project provides a relational database schema for managing an art galleryâ€
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/yourusername/art-gallery-db.git
+   git clone https://github.com/Bbrnn/art-gallery-db.git
    cd art-gallery-db
 
 2. **Create the database**
